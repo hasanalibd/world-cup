@@ -1,5 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -88,21 +94,30 @@ aside{
 .blog-description{
     padding: 0 15px;
 }
+
+.message{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
 main img{
     width: 100%;
 }
 .blog-btn{
     font-size: 20px;
     padding: 5px 15px;
+    margin: 15px 0;
     border-radius: 5px;
     background-color: whitesmoke;
 }
-.message{
+/* .message{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2%;
     margin-top: -20px;
-}
+} */
 
 .message> p{
     font-size: 18px;
@@ -143,12 +158,15 @@ footer{
 
 footer h1{
     color: white;
+    margin-bottom: 15px;
 }
 
 .bottom-menu{
     display: flex;
     justify-content: space-evenly;
+    grid-row-gap: 10px;
 }
+
 
 .social-menu{
     display: flex;
