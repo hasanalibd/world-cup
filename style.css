@@ -44,6 +44,7 @@ body{
     color: whitesmoke;
     font-size: 20px;
     padding: 10px 25px;
+    border: none;
     border-radius: 10px;
     background-image: linear-gradient(90deg, rgb(111, 2, 189), #c0392b);
 }
@@ -110,6 +111,8 @@ main img{
     font-size: 20px;
     padding: 5px 15px;
     margin: 15px 0;
+    border: none;
+    border: 1px solid gainsboro;
     border-radius: 5px;
     background-color: whitesmoke;
 }
